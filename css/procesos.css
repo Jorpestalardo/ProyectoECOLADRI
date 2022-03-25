@@ -1,0 +1,4 @@
+#procesos .contenedor{
+    display: flex;
+    justify-content: center;
+}

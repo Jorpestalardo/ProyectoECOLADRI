@@ -1,0 +1,71 @@
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    nav {
+        background-color: #c7d57e;
+        height: 80px;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+    
+    .icon-menu{
+        display: none;
+    }
+    
+    #check{
+        display: none;
+    
+    }
+    .logo{
+        position: absolute;
+        padding: 10px 20px;
+        width: 50%;
+        margin-left: -15px;
+    }
+    
+    nav ul{
+        float: right;
+        margin-right: 20px;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0px 5px;
+    }
+    
+    nav ul li a{
+        padding: 5px 3px;
+        background: #d67e7d;
+        border-radius: 5px;
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 10px;
+    
+    }
+    
+    nav ul li a:hover{
+        background-color: #c7d57e;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        padding: 5px;
+        border-radius: 5%;
+        transition: .4s;
+    }
+    
+    li a.active:hover{
+        background-color: #c7d57e;
+    }
+
+    #banner{
+        margin-top: 80px;
+    }
+    
+    #banner img{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+    }
+    
+}
+
